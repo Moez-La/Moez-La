@@ -11,8 +11,6 @@
 
 ### Embedded Systems Engineer
 
-<br>
-
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=7C4DFF&center=true&vCenter=true&width=1000&lines=Embedded+Linux+Developer;RTOS+%26+Low-Level+Programming;Robotics+%26+Real-Time+Systems;C%2FC%2B%2B+%7C+Linux+%7C+STM32+%7C+FPGA;Driver+Development+%26+Embedded+Systems" />
 
 <br>
