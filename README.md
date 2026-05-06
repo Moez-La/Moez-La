@@ -10,16 +10,13 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=7C4DFF&center=true&vCenter=true&repeat=true&width=1000&height=60&lines=Embedded+Linux+Developer;RTOS+%26+Low-Level+Programming;Robotics+%26+Real-Time+Systems;C%2FC%2B%2B+%7C+Linux+%7C+STM32+%7C+FPGA;Driver+Development+%26+Embedded+Systems" />
 
-<br>
+<br><br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Moez-La&color=blue)
-
-![Followers](https://img.shields.io/github/followers/Moez-La?style=social)
-
-![Stars](https://img.shields.io/github/stars/Moez-La?style=social)
+![](https://komarev.com/ghpvc/?username=Moez-La&color=blue&style=for-the-badge)
+![](https://img.shields.io/github/followers/Moez-La?style=for-the-badge)
+![](https://img.shields.io/github/stars/Moez-La?style=for-the-badge)
 
 </div>
-
 ---
 
 # About Me
