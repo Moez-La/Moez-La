@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=38&pause=1400&color=00E5FF&center=true&vCenter=true&repeat=true&width=900&height=70&lines=👋+Hello+There!" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=42&pause=1400&color=00E5FF&center=true&vCenter=true&repeat=true&width=1000&height=90&lines=👋+Hello+There!;Welcome+to+My+GitHub+Profile" />
+
+<br><br>
 
 # Moez Chagraoui
 
@@ -11,10 +13,11 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=7C4DFF&center=true&vCenter=true&repeat=true&width=1000&height=60&lines=Embedded+Linux+Developer;RTOS+%26+Low-Level+Programming;Robotics+%26+Real-Time+Systems;C%2FC%2B%2B+%7C+Linux+%7C+STM32+%7C+FPGA;Driver+Development+%26+Embedded+Systems" />
 
 <br><br>
-
-![](https://komarev.com/ghpvc/?username=Moez-La&color=blue&style=for-the-badge)
-![](https://img.shields.io/github/followers/Moez-La?style=for-the-badge)
-![](https://img.shields.io/github/stars/Moez-La?style=for-the-badge)
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Moez-La&color=blue&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/followers/Moez-La?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/stars/Moez-La?style=for-the-badge"/>
+</p>
 
 </div>
 ---
