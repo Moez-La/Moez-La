@@ -10,8 +10,6 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Moez-La&color=blue&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/followers/Moez-La?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/stars/Moez-La?style=for-the-badge"/>
 </p>
 
 </div>
