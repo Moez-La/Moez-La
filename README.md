@@ -1,10 +1,15 @@
 <div align="center">
 
-# Moez Chagraoui
+<img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="100%" />
 
-### Embedded Systems Engineer | Embedded Linux | RTOS | Robotics
+# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px"> Moez Chagraoui
 
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3YxZXQ5bXQ4d2Z6ZjlmYjA5d3FxbmQzZ2M0aG85c2h4a3k5bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HlBO7eyXzSZkJri/giphy.gif" width="450"/>
+### <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="25"> Embedded Systems Engineer  
+### <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="25"> Embedded Linux | RTOS | Robotics
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=00F7FF&center=true&vCenter=true&width=900&lines=Embedded+Systems+Engineer;Embedded+Linux+Developer;RTOS+%26+Low-Level+Programming;Robotics+%26+Real-Time+Systems;C%2FC%2B%2B+%7C+Linux+%7C+STM32+%7C+FPGA" />
 
 <br>
 
@@ -47,6 +52,8 @@ I develop low-level software and real-time applications validated on physical ha
 ## Embedded & Low-Level
 
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
+![BeagleBone Black](https://img.shields.io/badge/BeagleBone_Black-000000?style=flat)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00979D?style=flat)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Buildroot](https://img.shields.io/badge/Buildroot-000000?style=flat)
@@ -56,26 +63,11 @@ I develop low-level software and real-time applications validated on physical ha
 
 ---
 
-## Tools
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-orange?style=flat)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-
----
-
 # Featured Projects
 
 ## Embedded Linux on QEMU ARM
 
 Minimal embedded Linux system using Buildroot and QEMU ARM.
-
-- Custom Linux image
-- Kernel module
-- Userspace application
-- Cross compilation
-- ARM emulation
 
 🔗 https://github.com/Moez-La/Embedded-linux-qemu
 
@@ -84,12 +76,6 @@ Minimal embedded Linux system using Buildroot and QEMU ARM.
 ## Custom RTOS vs FreeRTOS
 
 Comparative study between a custom lightweight RTOS and FreeRTOS.
-
-- Priority scheduler
-- Mutexes
-- Semaphores
-- Queues
-- Benchmarking
 
 🔗 https://github.com/Moez-La/Rtos-comparison-study
 
@@ -105,7 +91,7 @@ ROS2 robot simulation with SLAM and teleoperation.
 
 ## NASA CMAPSS Predictive Maintenance
 
-Deep Learning models for turbofan Remaining Useful Life prediction.
+Deep Learning models for Remaining Useful Life prediction.
 
 🔗 https://github.com/Moez-La/Predictive-maintenance-nasa-cmapss
 
@@ -129,8 +115,7 @@ Deep Learning models for turbofan Remaining Useful Life prediction.
 - Driver Development
 - RTOS Internals
 - Robotics Software
-- Real-Time Embedded Systems
-- Safety-Critical Systems
+- Real-Time Systems
 
 ---
 
