@@ -101,12 +101,11 @@ Deep Learning models for Remaining Useful Life prediction.
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Moez-La&show_icons=true&theme=tokyonight"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Moez-La&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moez-La&layout=compact&theme=tokyonight"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moez-La&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </div>
-
 ---
 
 # Current Focus
@@ -123,6 +122,6 @@ Deep Learning models for Remaining Useful Life prediction.
 
 📧 moezchagraoui@gmail.com
 
-💼 LinkedIn: https://linkedin.com/in/YOUR-LINK
+💼 LinkedIn: https://www.linkedin.com/in/moezchagraoui/
 
 🌍 GitHub: https://github.com/Moez-La
