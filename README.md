@@ -99,13 +99,14 @@ Deep Learning models for Remaining Useful Life prediction.
 
 # GitHub Stats
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Moez-La&show_icons=true&theme=tokyonight" height="180"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Moez-La&layout=compact&theme=tokyonight" height="180"/>
+</p>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Moez-La&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moez-La&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</div>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Moez-La&theme=tokyonight" />
+</p>
 ---
 
 # Current Focus
