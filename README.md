@@ -4,7 +4,7 @@
 
 ### <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="25"> Embedded Systems Engineer  
 ### <img src="https://media.giphy.com/media/kH1DBkPNyZPOk0BxrM/giphy.gif" width="25"> Embedded Linux | RTOS | Robotics
-
+<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="450"/>
 <br>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=00F7FF&center=true&vCenter=true&width=900&lines=Embedded+Systems+Engineer;Embedded+Linux+Developer;RTOS+%26+Low-Level+Programming;Robotics+%26+Real-Time+Systems;C%2FC%2B%2B+%7C+Linux+%7C+STM32+%7C+FPGA" />
