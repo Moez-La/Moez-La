@@ -1,23 +1,22 @@
 <div align="center">
 
-
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=38&pause=1400&color=00E5FF&center=true&vCenter=true&width=900&lines=👋+Hello+There!" />
-
-<br>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=38&pause=1400&color=00E5FF&center=true&vCenter=true&repeat=true&width=900&height=70&lines=👋+Hello+There!" />
 
 # Moez Chagraoui
 
 ### Embedded Systems Engineer
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=7C4DFF&center=true&vCenter=true&width=1000&lines=Embedded+Linux+Developer;RTOS+%26+Low-Level+Programming;Robotics+%26+Real-Time+Systems;C%2FC%2B%2B+%7C+Linux+%7C+STM32+%7C+FPGA;Driver+Development+%26+Embedded+Systems" />
-
 <br>
 
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=7C4DFF&center=true&vCenter=true&repeat=true&width=1000&height=60&lines=Embedded+Linux+Developer;RTOS+%26+Low-Level+Programming;Robotics+%26+Real-Time+Systems;C%2FC%2B%2B+%7C+Linux+%7C+STM32+%7C+FPGA;Driver+Development+%26+Embedded+Systems" />
+
+<br><br>
+
 ![Profile Views](https://komarev.com/ghpvc/?username=Moez-La&color=blue)
-![GitHub followers](https://img.shields.io/github/followers/Moez-La?style=social)
-![GitHub stars](https://img.shields.io/github/stars/Moez-La?style=social)
+
+![Followers](https://img.shields.io/github/followers/Moez-La?style=social)
+
+![Stars](https://img.shields.io/github/stars/Moez-La?style=social)
 
 </div>
 
