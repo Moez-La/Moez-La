@@ -94,6 +94,14 @@ Deep Learning models for Remaining Useful Life prediction.
 
 ---
 
+## Autonomous-vehicle-lateral-control
+
+Lateral control algorithms (Proportional, Pure Pursuit) and ECU failure safety mechanism for autonomous vehicles
+
+🔗 https://github.com/Moez-La/Autonomous-vehicle-lateral-control
+
+---
+
 # GitHub Stats
 
 <p align="center">
