@@ -98,27 +98,6 @@ Lateral controllers (Proportional, Pure Pursuit) + ECU safety function — EasyM
 
 ---
 
-# GitHub Stats
-
-<p align="center">
-  <img 
-    src="https://github-readme-stats-sigma-five.vercel.app/api?username=Moez-La&show_icons=true&theme=tokyonight&hide_border=true" 
-    height="180"
-  />
-  <img 
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Moez-La&layout=compact&theme=tokyonight&hide_border=true" 
-    height="180"
-  />
-</p>
-
-<p align="center">
-  <img 
-    src="https://github-profile-trophy.vercel.app/?username=Moez-La&theme=tokyonight&no-frame=true&row=1&column=6" 
-  />
-</p>
-
----
-
 # Current Focus
 
 - 🔵 Embedded Linux & Driver Development
