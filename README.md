@@ -125,6 +125,20 @@ Lateral controllers (Proportional, Pure Pursuit) + ECU safety function — EasyM
 - ⚙️ RTOS Internals & Real-Time Systems
 - 🤖 Robotics Software (ROS2)
 - 📡 STM32 & FPGA Low-Level Programming
+- 📚 CU Boulder — Embedded Linux Specialization *(in progress)*
+
+---
+
+# Certifications
+
+🏅 **Advanced Techniques in Embedded Software Testing** — Coursera / HurixDigital  
+🔗 https://coursera.org/verify/1S6NQBM482A5
+
+🏅 **Introduction to AUTOSAR** — Coursera / EDUCBA  
+🔗 *(disponible le 17 mai 2026)*
+
+🎓 **Embedded Linux Development Specialization** — Coursera / University of Colorado Boulder  
+*(In progress)*
 
 ---
 
