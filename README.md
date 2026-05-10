@@ -132,7 +132,7 @@ Lateral controllers (Proportional, Pure Pursuit) + ECU safety function — EasyM
 # Certifications
 
 🏅 **Advanced Techniques in Embedded Software Testing** — Coursera / HurixDigital  
-🔗 https://coursera.org/verify/1S6NQBM482A5
+🔗 https://www.coursera.org/account/accomplishments/verify/1S6NQBM482A5
 
 🏅 **Introduction to AUTOSAR** — Coursera / EDUCBA  
 🔗 https://www.coursera.org/account/accomplishments/verify/58SA5A0TWBCK
