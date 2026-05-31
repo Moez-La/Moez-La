@@ -116,9 +116,6 @@ Lateral controllers (Proportional, Pure Pursuit) + ECU safety function — EasyM
 🏅 **Introduction to AUTOSAR** — Coursera / EDUCBA  
 🔗 https://www.coursera.org/account/accomplishments/verify/58SA5A0TWBCK
 
-🎓 **Embedded Linux Development Specialization** — Coursera / University of Colorado Boulder  
-*(In progress)*
-
 ---
 
 # Contact
