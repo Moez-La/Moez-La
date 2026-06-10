@@ -39,7 +39,10 @@ Currently focused on: **Driver Development · RTOS Internals · Embedded Linux �
 ---
 
 ## Embedded & Low-Level
-
+![Yocto](https://img.shields.io/badge/Yocto-0094D6?style=flat)
+![SWUpdate](https://img.shields.io/badge/SWUpdate-FF6600?style=flat)
+![U--Boot](https://img.shields.io/badge/U--Boot-003366?style=flat)
+![OpenSSL](https://img.shields.io/badge/OpenSSL-721412?style=flat&logo=openssl&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
 ![BeagleBone Black](https://img.shields.io/badge/BeagleBone_Black-000000?style=flat)
@@ -58,6 +61,17 @@ Currently focused on: **Driver Development · RTOS Internals · Embedded Linux �
 ---
 
 # Featured Projects
+
+## 🔄 Yocto OTA Update Pipeline — QEMU ARM
+Production-ready OTA update system built with Yocto Scarthgap — A/B partition scheme, automatic rollback via U-Boot bootcount, and RSA package signing.
+- **SWUpdate v2026.05** — RSA 2048-bit signature + SHA256 hash verification
+- **Automatic rollback** — bootcount/bootlimit via U-Boot + FAT env
+- **3 security scenarios** validated — unsigned rejected, signed corrupted rollback, signed valid OK
+- **CI/CD** — GitHub Actions validation on every push
+
+🔗 https://github.com/Moez-La/yocto-ota-swupdate-qemu
+
+---
 
 ## 🔧 Embedded Linux on QEMU ARM
 Minimal embedded Linux system — kernel cross-compilation, Buildroot rootfs, custom kernel driver.
@@ -100,6 +114,7 @@ Lateral controllers (Proportional, Pure Pursuit) + ECU safety function — EasyM
 
 # Current Focus
 
+- 🔄 Yocto OTA Pipeline — A/B partitioning, RSA signing, automatic rollback
 - 🔵 Embedded Linux & Driver Development
 - ⚙️ RTOS Internals & Real-Time Systems
 - 🤖 Robotics Software (ROS2)
