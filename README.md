@@ -119,7 +119,6 @@ Lateral controllers (Proportional, Pure Pursuit) + ECU safety function — EasyM
 - ⚙️ RTOS Internals & Real-Time Systems
 - 🤖 Robotics Software (ROS2)
 - 📡 STM32 & FPGA Low-Level Programming
-- 📚 CU Boulder — Embedded Linux Specialization *(in progress)*
 
 ---
 
