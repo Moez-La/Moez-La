@@ -82,6 +82,16 @@ Minimal embedded Linux system — kernel cross-compilation, Buildroot rootfs, cu
 
 ---
 
+## 🚁 Quadrotor Control — PID vs SMC vs LQR
+Non-linear quadrotor simulation comparing **PID**, **SMC (Super-Twisting)** and **LQR (Riccati)** controllers on direct force/torque dynamics — Raspberry Pi ready (MPU6050 + PCA9685).
+- **3 trajectories** — square, circle, figure-8 with RMSE comparison
+- **PyBullet NL simulator** — full 12-state non-linear model
+- **Hardware-ready HAL** — IMU/ESC abstraction layer for RPi deployment
+
+🔗 https://github.com/Moez-La/quadrotor-control
+
+---
+
 ## ⚙️ Custom RTOS vs FreeRTOS
 Lightweight RTOS from scratch in C++17 — scheduler, Queue, Mutex, Semaphore.
 - Benchmark against **FreeRTOS v11.1.0** on latency and execution frequency
