@@ -4,7 +4,7 @@
 # Moez Chagraoui
 ### Embedded Systems Engineer
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=7C4DFF&center=true&vCenter=true&repeat=true&width=1000&height=60&lines=Embedded+Systems+Engineer;Embedded+Linux+Developer;RTOS+%26+Low-Level+Programming;Robotics+%26+Real-Time+Systems;C%2FC%2B%2B+%7C+Linux+%7C+STM32+%7C+FPGA;Driver+Development+%26+Embedded+Systems" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1200&color=7C4DFF&center=true&vCenter=true&repeat=true&width=1000&height=60&lines=Embedded+Systems+Engineer;Embedded+Linux+%7C+Yocto+%7C+OTA;RTOS+%26+Low-Level+Programming;C%2FC%2B%2B+%7C+STM32+%7C+Linux+%7C+FPGA;Secure+Boot+%7C+SWUpdate+%7C+U-Boot;Cloud+OTA+%7C+RSA+%7C+A%2FB+Partition" />
 
 <br>
 
@@ -18,11 +18,12 @@
 
 # About Me
 
-Embedded Systems Engineer — double degree INP-ENSEEIHT / ENIT.  
-Specialized in low-level C/C++, RTOS, and Embedded Linux development.  
-Experience on STM32, FPGA (Nios II), and real-time systems validated on physical hardware.
+Embedded Systems Engineer — double degree INP-ENSEEIHT Toulouse / ENIT.  
+Specialized in low-level **C/C++**, **RTOS**, and **Embedded Linux** development.  
+Experience on **STM32** (Cortex-M), **FPGA** (Nios II), and real-time systems validated on physical hardware.  
+Built a production-ready **secure OTA platform** (Yocto + SWUpdate + U-Boot Secure Boot + Cloud) and an **industrial predictive maintenance system** in C bare-metal on STM32 validated in real production.
 
-Currently focused on: **Driver Development · RTOS Internals · Embedded Linux · Robotics**
+Currently focused on: **Embedded Linux · Secure OTA · RTOS Internals · Driver Development**
 
 ---
 
@@ -45,7 +46,6 @@ Currently focused on: **Driver Development · RTOS Internals · Embedded Linux �
 ![OpenSSL](https://img.shields.io/badge/OpenSSL-721412?style=flat&logo=openssl&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
-![BeagleBone Black](https://img.shields.io/badge/BeagleBone_Black-000000?style=flat)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-00979D?style=flat)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Buildroot](https://img.shields.io/badge/Buildroot-000000?style=flat)
@@ -53,6 +53,7 @@ Currently focused on: **Driver Development · RTOS Internals · Embedded Linux �
 ![FPGA](https://img.shields.io/badge/FPGA-7B1FA2?style=flat)
 ![Raspberry Pi](https://img.shields.io/badge/RaspberryPi-C51A4A?style=flat&logo=raspberry-pi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat&logo=ros&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat&logo=cmake&logoColor=white)
 ![GDB](https://img.shields.io/badge/GDB-A42E2B?style=flat)
@@ -62,19 +63,33 @@ Currently focused on: **Driver Development · RTOS Internals · Embedded Linux �
 
 # Featured Projects
 
-## 🔄 Yocto OTA Update Pipeline — QEMU ARM
-Production-ready OTA update system built with Yocto Scarthgap — A/B partition scheme, automatic rollback via U-Boot bootcount, and RSA package signing.
-- **SWUpdate v2026.05** — RSA 2048-bit signature + SHA256 hash verification
-- **Automatic rollback** — bootcount/bootlimit via U-Boot + FAT env
-- **3 security scenarios** validated — unsigned rejected, signed corrupted rollback, signed valid OK
-- **CI/CD** — GitHub Actions validation on every push
+## 🔐 Secure OTA Platform — Yocto + SWUpdate + U-Boot + Cloud
 
-🔗 https://github.com/Moez-La/yocto-ota-swupdate-qemu
+Production-ready embedded Linux OTA platform for ARM — from secure bootloader to Cloud server, with zero physical intervention and zero brick risk.
+
+**How it works:** The system maintains two firmware copies (Slot A / Slot B). Updates always install on the inactive slot while the device keeps running. If the new firmware fails to boot 3 times, U-Boot automatically rolls back to the previous slot.
+
+- **U-Boot Secure Boot** — RSA 2048-bit key compiled into U-Boot, FIT image signature verified at every boot — unsigned kernel refused
+- **Dynamic A/B slot targeting** — `preinst.sh` detects the active slot from FAT and automatically targets the inactive one via `/dev/target_slot` symlink
+- **Automatic rollback** — bootcount/bootlimit=3 via U-Boot
+- **RSA 2048-bit + SHA256** — every package signed, every artifact hash-verified
+- **OTA Agent C++** (init.d daemon, auto-start) — polls Cloud HTTPS every 60s, downloads firmware, triggers SWUpdate automatically — zero human intervention
+- **Cloud FastAPI server** (Render, HTTPS) — version read dynamically from `.swu`, API Key auth, **anti-rollback** (refuses to send older version than installed)
+- **3 security scenarios validated** — unsigned rejected, corrupted image auto-rollback, valid update installed and stable
+- **Remote OTA from smartphone via 4G** — tested end-to-end
+- **CI/CD GitHub Actions** passing
+
+> Same A/B OTA architecture used in automotive ECUs (SOTA), industrial IoT and aerospace embedded systems.
+
+🔗 https://github.com/Moez-La/yocto-ota-swupdate-qemu  
+📺 Demo local OTA: https://youtu.be/q1bFOdNw2aE  
+📺 Demo remote 4G: https://youtu.be/6k4kBoaxgzM  
+📺 Demo Secure Boot + Dynamic A/B: https://youtu.be/ruY73xMhIy8
 
 ---
 
 ## 🔧 Embedded Linux on QEMU ARM
-Minimal embedded Linux system — kernel cross-compilation, Buildroot rootfs, custom kernel driver.
+Minimal embedded Linux system from scratch — kernel cross-compilation, Buildroot rootfs, custom kernel driver.
 - Write latency: **459 µs avg** | Read latency: **422 µs avg**
 - 1 violation / 100 iterations
 
@@ -124,10 +139,9 @@ Lateral controllers (Proportional, Pure Pursuit) + ECU safety function — EasyM
 
 # Current Focus
 
-- 🔄 Yocto OTA Pipeline — A/B partitioning, RSA signing, automatic rollback
+- ✅ Secure OTA Platform — Yocto + SWUpdate + U-Boot Secure Boot + Cloud — **COMPLETED**
 - 🔵 Embedded Linux & Driver Development
 - ⚙️ RTOS Internals & Real-Time Systems
-- 🤖 Robotics Software (ROS2)
 - 📡 STM32 & FPGA Low-Level Programming
 
 ---
